@@ -1,8 +1,8 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, HttpResponse
 from .models import Tour
 from .forms import TourForm
 import requests
 
 
 def schedule_tour(request):
-    return render (request, "schedule-tour.html")
+    return HttpResponse (request, "schedule-tour.html")
