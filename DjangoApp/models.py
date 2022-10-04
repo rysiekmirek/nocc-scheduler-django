@@ -19,7 +19,7 @@ class Tour(models.Model):
         ('students / informal guests', 'Students / Informal Guests'),
     ]
     category = models.CharField(
-        max_length=2,
+        max_length=50,
         choices=CATEGORY_CHOICES,
         default='existing customer',
     )
