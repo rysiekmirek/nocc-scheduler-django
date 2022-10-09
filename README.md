@@ -1,1 +1,1 @@
-# nocc-scheduler-django
+# nocc-scheduler-project
